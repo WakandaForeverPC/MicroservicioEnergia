@@ -53,6 +53,33 @@ body {
     border-radius: 5px;
 }
 
+
+.building.hospital {
+    background-color: white;
+    position: relative;
+}
+
+.building.hospital::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 10%;
+    background-color: red;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.building.hospital::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    height: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
 .vertical-road {
     background-color: #333;
 }

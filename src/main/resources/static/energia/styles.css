@@ -26,7 +26,7 @@ body {
 
 .pipe {
     position: absolute;
-    background-color: #ff0;
+    background-color: #ffff21;
     animation: flow 2s infinite;
 }
 
@@ -41,9 +41,9 @@ body {
 }
 
 @keyframes flow {
-    0% { background-color: #ff0; }
-    50% { background-color: #ff8; }
-    100% { background-color: #ff0; }
+    0% { background-color: #ffff21; }
+    50% { background-color: #f5f5ab; }
+    100% { background-color: #ffff21; }
 }
 
 .building {

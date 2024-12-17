@@ -94,7 +94,7 @@ if (board) {
                     labels: buildingLabels,
                     datasets: [{
                         data: energyConsumptionData,
-                        backgroundColor: energyConsumptionData.map(value => value > 80 ? 'red' : 'green')
+                        backgroundColor: energyConsumptionData.map(value => value > 80 ? 'goldenrod' : 'lightgreen')
                     }]
                 },
                 options: {

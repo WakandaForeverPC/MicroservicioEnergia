@@ -16,10 +16,13 @@ Dentro de ese package tenemos una clase
 
 - Este controlador maneja las solicitudes HTTP para la vista de gestión de energía.
 - showCity(): Método que maneja las solicitudes GET a la ruta /energia y devuelve la vista board-energia.
+- 
 ### Resources 
 
 Dentro del directorio Resources tenemos otros dos directorios 
+
 #### static.energia
+
 ##### script.js
 
 Este script se encarga de generar el tablero de energía y de obtener datos de edificios y puntos de reciclaje desde el servidor.  
@@ -28,12 +31,13 @@ Este script se encarga de generar el tablero de energía y de obtener datos de e
 - Simulación del consumo de energía y creación de un gráfico de pastel.
 - Obtención y renderización de puntos de reciclaje.
   
-styles.css
+##### styles.css
 - Este archivo contiene los estilos CSS para la visualización del tablero de energía y los elementos dentro de él.  
 - Estilos para el cuerpo, tablero, celdas, tuberías, edificios y carreteras.
   
 #### templates 
-board-energia.html 
+
+##### board-energia.html 
 
 Este archivo HTML define la estructura de la página de gestión de energía.  
 - Contiene el contenedor del tablero y el gráfico de consumo de energía.

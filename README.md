@@ -12,7 +12,7 @@ Este proyecto es un microservicio de gestión de energía desarrollado con Sprin
 
 Dentro de ese package tenemos una clase 
 
-#### EnergiaController
+#### `EnergiaController`
 
 - Este controlador maneja las solicitudes HTTP para la vista de gestión de energía.
 - showCity(): Método que maneja las solicitudes GET a la ruta /energia y devuelve la vista board-energia.

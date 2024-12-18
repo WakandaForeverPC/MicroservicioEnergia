@@ -20,7 +20,7 @@ Dentro de ese package tenemos una clase
 
 Dentro del directorio Resources tenemos otros dos directorios 
 #### static.energia
-### script.js
+##### script.js
 
 Este script se encarga de generar el tablero de energía y de obtener datos de edificios y puntos de reciclaje desde el servidor.  
 - Generación del tablero con carreteras y celdas.
